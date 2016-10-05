@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.empressum.jake.MainActivity"
+    android:id="@+id/rl">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"/>
+    <ImageView
+        android:layout_width="@dimen/activity_main_img_width"
+        android:layout_height="50dp"
+        android:id="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et"
+        android:hint="emailid@example.com"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et"
+        android:id="@+id/et1"
+        android:layout_centerHorizontal="true"
+        android:hint="password***"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_below="@+id/et1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/but1"
+        android:background="#0dbdc4"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_prompt"
+        android:layout_below="@+id/but1"
+        android:id="@+id/tv"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="EXTENDED LIST VIEW"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#457dd6"
+        android:textColor="#ffffff"
+        android:id="@+id/but2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but2"
+        android:text="Forgot Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/tv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv1"
+        android:text="Don't have an account yet?"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+</RelativeLayout>

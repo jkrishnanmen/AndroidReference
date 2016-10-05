@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jake</string>
+
+    <string-array name="country_arrays">
+        <item>India</item>
+        <item>China</item>
+        <item>Bangladesh</item>
+        <item>Thailand</item>
+    </string-array>
+
+
+    <string name="country_prompt">Choose a Country</string>
+
+
+</resources>

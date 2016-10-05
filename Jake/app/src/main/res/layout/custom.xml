@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinner Dynamic"
+                android:layout_toRightOf="@+id/tv"
+                android:id="@+id/but" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but1"
+                android:layout_below="@+id/but"
+                android:text="Recycler View"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but2"
+                android:text="SQLite Implementation"
+                android:layout_below="@+id/but1"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but3"
+                android:text="Shared Preference"
+                android:layout_below="@+id/but2"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but4"
+                android:text="Maps"
+                android:layout_below="@+id/but3"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service"
+                android:id="@+id/ser"
+                android:layout_below="@id/but4"
+                android:layout_toRightOf="@id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but5"
+                android:text="Gallery"
+                android:layout_below="@+id/but4"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but6"
+                android:text="Web Services"
+                android:layout_below="@+id/but5"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but7"
+                android:text="Face Detection"
+                android:layout_below="@+id/but6"
+                android:layout_toRightOf="@+id/tv"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but8"
+                android:text="List View"
+                android:layout_below="@+id/but7"
+                android:layout_toRightOf="@+id/tv"/>
+
+        </RelativeLayout>
+
+    </ScrollView>

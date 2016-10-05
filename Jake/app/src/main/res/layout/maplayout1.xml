@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Lattitude"
+        android:layout_below="@+id/tv5"
+        android:id= "@+id/tv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/tv1"
+        android:text="Set Longitude"
+        android:layout_below="@+id/np"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Bearing"
+        android:id= "@+id/tv2"
+        android:layout_below="@+id/np1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Zoom"
+        android:id= "@+id/tv3"
+        android:layout_below="@+id/np2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Tilt"
+        android:id= "@+id/tv4"
+        android:layout_below="@+id/np3"/>
+    <EditText
+        android:layout_width="@dimen/mapsdialogwidth"
+        android:layout_height="@dimen/et_square"
+        android:layout_alignParentRight="true"
+        android:id="@+id/np"
+        android:layout_below="@+id/tv5"
+        />
+    <EditText
+        android:layout_width="@dimen/mapsdialogwidth"
+        android:layout_height="@dimen/et_square"
+        android:layout_alignParentRight="true"
+        android:id="@+id/np1"
+        android:layout_below="@+id/np"
+        />
+    <EditText
+        android:layout_width="@dimen/mapsdialogwidth"
+        android:layout_height="@dimen/et_square"
+        android:layout_alignParentRight="true"
+        android:id="@+id/np2"
+        android:layout_below="@+id/np1"
+        />
+    <EditText
+        android:layout_width="@dimen/mapsdialogwidth"
+        android:layout_height="@dimen/et_square"
+        android:layout_alignParentRight="true"
+        android:id="@+id/np3"
+        android:layout_below="@+id/np2"
+        />
+    <EditText
+        android:layout_width="@dimen/mapsdialogwidth"
+        android:layout_height="@dimen/et_square"
+        android:layout_alignParentRight="true"
+        android:id="@+id/np4"
+        android:layout_below="@+id/np3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/np4"
+        android:text="done"
+        android:id="@+id/donee"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        />
+
+
+
+
+</RelativeLayout>

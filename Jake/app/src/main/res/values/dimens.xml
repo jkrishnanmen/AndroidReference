@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="numberpicker_vertical">80dp</dimen>
+    <dimen name="numberpicker_horizontal">50dp</dimen>
+    <dimen name="et_square">50dp</dimen>
+
+
+    <dimen name="activity_main_img_width">170dp</dimen>
+    <dimen name="mapsdialogwidth">190dp</dimen>
+</resources>
